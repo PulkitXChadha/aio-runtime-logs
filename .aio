@@ -1,0 +1,137 @@
+{
+  "project": {
+    "id": "4566206088344617815",
+    "name": "aioRuntimeLogs",
+    "title": "AIO Runtime Logs",
+    "org": {
+      "id": "275380",
+      "name": "adobe-demo-americas-270",
+      "ims_org_id": "E55513145DD2BD010A495CFA@AdobeOrg",
+      "details": {
+        "services": [
+          {
+            "name": "Adobe Stock",
+            "code": "StockSDK",
+            "type": "adobeid"
+          },
+          {
+            "name": "PDF Embed API",
+            "code": "ViewSDK",
+            "type": "adobeid"
+          },
+          {
+            "name": "Lightroom Services",
+            "code": "LightroomPartnersSDK",
+            "type": "adobeid"
+          },
+          {
+            "name": "Content and Commerce AI",
+            "code": "ccai-sdk",
+            "type": "adobeid"
+          },
+          {
+            "name": "Creative Cloud Libraries",
+            "code": "CC-Libraries-SDK",
+            "type": "adobeid"
+          },
+          {
+            "name": "Customer Journey Analytics",
+            "code": "CJA SDK",
+            "type": "adobeid"
+          },
+          {
+            "name": "Adobe Analytics",
+            "code": "AdobeAnalyticsSDK",
+            "type": "analytics"
+          },
+          {
+            "name": "Task Queue Manager",
+            "code": "DvaQueueSDK",
+            "type": "entp"
+          },
+          {
+            "name": "Adobe Analytics",
+            "code": "AdobeAnalyticsSDK",
+            "type": "entp"
+          },
+          {
+            "name": "Privacy Service API",
+            "code": "McGdprSDK",
+            "type": "entp"
+          },
+          {
+            "name": "Experience Platform Launch API",
+            "code": "McDtmSDK",
+            "type": "entp"
+          },
+          {
+            "name": "Adobe Photoshop APIs (Trial)",
+            "code": "CIS SDK",
+            "type": "entp"
+          },
+          {
+            "name": "Experience Platform API",
+            "code": "McDataServicesSdk",
+            "type": "entp"
+          },
+          {
+            "name": "User Management API",
+            "code": "UserMgmtSDK",
+            "type": "entp"
+          },
+          {
+            "name": "Journey Orchestration",
+            "code": "JourneySDK",
+            "type": "entp"
+          },
+          {
+            "name": "I/O Events",
+            "code": "CloudIntegrationSDK",
+            "type": "entp"
+          },
+          {
+            "name": "Audience Manager API",
+            "code": "AudienceManagerCustomerSDK",
+            "type": "entp"
+          },
+          {
+            "name": "I/O Management API",
+            "code": "AdobeIOManagementAPISDK",
+            "type": "entp"
+          },
+          {
+            "name": "Adobe Campaign",
+            "code": "CampaignSDK",
+            "type": "entp"
+          },
+          {
+            "name": "Adobe Target",
+            "code": "AdobeTargetSDK",
+            "type": "entp"
+          },
+          {
+            "name": "Places",
+            "code": "McPlacesSDK",
+            "type": "entp"
+          }
+        ]
+      }
+    },
+    "workspace": {
+      "id": "4566206088344619575",
+      "name": "Stage",
+      "title": "Stage",
+      "action_url": "https://275380-aioruntimelogs-stage.adobeioruntime.net",
+      "app_url": "https://275380-aioruntimelogs-stage.adobeio-static.net",
+      "details": {
+        "credentials": [],
+        "services": []
+      }
+    }
+  },
+  "app": {
+    "actions": "actions",
+    "dist": "dist",
+    "web": "web-src"
+  }
+}

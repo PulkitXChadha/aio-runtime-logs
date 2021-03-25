@@ -1,0 +1,31 @@
+packages:
+  __APP_PACKAGE__:
+    license: Apache-2.0
+    actions:
+      generic:
+        function: actions/generic/index.js
+        web: 'yes'
+        runtime: 'nodejs:12'
+        inputs:
+          LOG_LEVEL: debug
+        annotations:
+          require-adobe-auth: true
+          final: true
+      get-activation-list:
+        function: actions/misc/get-activation-list.js
+        web: "yes"
+        runtime: "nodejs:12"
+        inputs:
+          LOG_LEVEL: debug
+        annotations:
+          require-adobe-auth: true
+          final: true
+      get-activation-log:
+        function: actions/misc/get-activation-log.js
+        web: "yes"
+        runtime: "nodejs:12"
+        inputs:
+          LOG_LEVEL: debug
+        annotations:
+          require-adobe-auth: true
+          final: true
