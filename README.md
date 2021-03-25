@@ -2,6 +2,8 @@
 
 Welcome to my Adobe I/O Application!
 
+![](images/AIORuntimeLogsDemo.gif)
+
 ## Setup
 
 - Populate the `.env` file in the project root and fill it as shown [below](#env)
@@ -39,23 +41,23 @@ local serverless stack and also run your actions locally use the `aio app run --
 ### `manifest.yml`
 
 - List your backend actions under the `actions` field within the `__APP_PACKAGE__`
-package placeholder. We will take care of replacing the package name placeholder
-by your project name and version.
+  package placeholder. We will take care of replacing the package name placeholder
+  by your project name and version.
 - For each action, use the `function` field to indicate the path to the action
-code.
+  code.
 - More documentation for supported action fields can be found
-[here](https://github.com/apache/incubator-openwhisk-wskdeploy/blob/master/specification/html/spec_actions.md#actions).
+  [here](https://github.com/apache/incubator-openwhisk-wskdeploy/blob/master/specification/html/spec_actions.md#actions).
 
 #### Action Dependencies
 
 - You have two options to resolve your actions' dependencies:
 
   1. **Packaged action file**: Add your action's dependencies to the root
-   `package.json` and install them using `npm install`. Then set the `function`
-   field in `manifest.yml` to point to the **entry file** of your action
-   folder. We will use `parcelJS` to package your code and dependencies into a
-   single minified js file. The action will then be deployed as a single file.
-   Use this method if you want to reduce the size of your actions.
+     `package.json` and install them using `npm install`. Then set the `function`
+     field in `manifest.yml` to point to the **entry file** of your action
+     folder. We will use `parcelJS` to package your code and dependencies into a
+     single minified js file. The action will then be deployed as a single file.
+     Use this method if you want to reduce the size of your actions.
 
   2. **Zipped action folder**: In the folder containing the action code add a
      `package.json` with the action's dependencies. Then set the `function`
@@ -72,12 +74,13 @@ Alternatively, there are also debug configs for only UI and each separate action
 
 ## Typescript support for UI
 
-To use typescript use `.tsx` extension for react components and add a `tsconfig.json` 
+To use typescript use `.tsx` extension for react components and add a `tsconfig.json`
 and make sure you have the below config added
+
 ```
  {
   "compilerOptions": {
       "jsx": "react"
     }
-  } 
+  }
 ```
